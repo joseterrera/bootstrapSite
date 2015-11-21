@@ -463,6 +463,9 @@ footer .footer-below {
     opacity: 0;
 }
 
-
+.portfolio-item img{
+    text-align: center;
+    margin-left: 0;
+}
 
 
