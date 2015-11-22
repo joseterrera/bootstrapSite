@@ -36,6 +36,7 @@ h6 {
     font-weight: 700;
 }
 
+
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
@@ -67,9 +68,15 @@ hr.star-light:after {
     background-color: #0E0E0E;
 }
 
-.success hr.star-light:after{
+.success hr.star-light {
+    border-color: #2C3E50;
     color: #fff;
-    background-color: #2C3E50;
+    /*background-color: #2C3E50;*/
+}
+
+.success hr.star-light:after{
+    color: #2C3E50;
+    background-color: #fff;
 }
 
 
@@ -79,7 +86,7 @@ hr.star-primary {
 
 hr.star-primary:after {
     color: #2c3e50;
-    background-color: #fff;
+    background-color: #4F565C;
 }
 
 
@@ -219,13 +226,14 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
-    background: #2C3E50;
+    color: #2C3E50;
+    background: #fff;
 
 }
 
 section.success ul li {
     margin: 0 20% 0 20%;
+    font-size: 1.25em;
 }
 
 section.success a,
@@ -418,7 +426,12 @@ footer .footer-below {
 }
 
 .around .btn-social:hover{
-    border: 3px solid black;
+    border: 3px solid #233140;
+    background-color: white;
+}
+
+.around .btn-social {
+    background-color: #5A6269;
 }
 
 .btn:focus,
@@ -447,6 +460,7 @@ footer .footer-below {
 .scroll-top .btn:focus {
     outline: 0;
 }
+
 
 
 
@@ -522,8 +536,10 @@ footer .footer-below {
 
 
 
-.contact {
+#contact {
     text-align: center;
+    background-color: #4F565C;
+    color: #fff;
 
 }
 
