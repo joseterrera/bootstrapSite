@@ -64,7 +64,12 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #100303;
+    background-color: #0E0E0E;
+}
+
+.success hr.star-light:after{
+    color: #fff;
+    background-color: #2C3E50;
 }
 
 
@@ -145,6 +150,15 @@ background-color: inherit;
 color: #E81B1B;
 }
 
+@media(max-width:767px) {
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+    background-color: rgba(4, 4, 4, 0.56);
+}
+.img-rounded {
+    padding-top: 15%;
+}
+
+}
 @media(min-width:768px) {
     .navbar-fixed-top {
         padding: 25px 0;
@@ -390,11 +404,12 @@ footer .footer-below {
     text-align: center;
     font-size: 20px;
     line-height: 45px;
-    color: #2c3e50;
-    background-color: #2c3e50;
+    color: #fff;
+    background-color: black;
 }
 .btn-social:hover {
     color: red;
+    background: white;
 }
 
 .btn:focus,
@@ -493,16 +508,54 @@ footer .footer-below {
 /*profile picture */
 .img-rounded {
   max-width: 300px;
-  margin-top: -70px;
+  margin-top: -85px;
 }
 
 
 
-#contact {
+.contact {
     text-align: center;
+
+}
+
+.contactparagraph {
+    margin: 0 30% 10.5px;
 }
 
 .location, .around {
     text-align: center;
     left: 35%;
 }
+
+
+
+/**********************************
+PAGE: PORTFOLIO
+***********************************/
+
+#gallery {
+  margin: 0;
+  padding: 5%;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 30%;
+  margin: 2%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7
+}
+
+img {
+    max-width: 360px;
+    max-height: 234px;
+}
+
