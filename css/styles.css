@@ -438,6 +438,9 @@ footer .footer-below {
 .around .btn-social {
     background-color: #5A6269;
 }
+.fa-envelope{
+    color: red;
+}
 
 .btn:focus,
 .btn:active,
