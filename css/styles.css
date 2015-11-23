@@ -321,7 +321,10 @@ footer .footer-below {
     color: #382B2B;
 }
 
-.fa-envelope:hover{
+.index .fa-enelope:hover{
+    color: #2C3573;
+}
+a .fa-envelope:hover{
     color: #2C3573;
 }
 
