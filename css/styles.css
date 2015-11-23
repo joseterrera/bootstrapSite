@@ -428,7 +428,6 @@ footer .footer-below {
 .btn-social:hover {
     color: red;
     background: white;
-    border: 3px solid black;
 }
 
 .around .btn-social:hover{
