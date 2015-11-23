@@ -427,5 +427,8 @@ section.success ul li {
 .contactparagraph {
     margin: 0;
 }
+.btn-primary {
+    display: none;
+}
 }
 
