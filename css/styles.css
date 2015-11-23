@@ -213,6 +213,7 @@ section.success {
 section.success ul li {
     margin: 0 20% 0 20%;
     font-size: 1.25em;
+    text-align: center;
 }
 
 section.success a,
