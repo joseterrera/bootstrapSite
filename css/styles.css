@@ -413,7 +413,7 @@ footer .footer-below {
     background-color: #233140;
 }
 
-.btn-social {
+.index .btn-social {
     display: inline-block;
     width: 50px;
     height: 50px;
@@ -426,8 +426,13 @@ footer .footer-below {
     background-color: black;
 }
 .btn-social:hover {
-    color: red;
-    background: white;
+    background-color: white;
+    color: #32434F;
+}
+
+
+.around .btn-social {
+    color: #462F2F;
 }
 
 .around .btn-social:hover{
@@ -436,10 +441,37 @@ footer .footer-below {
 }
 
 .around .btn-social {
-    background-color: #5A6269;
+    background-color: #F3F3F3;
 }
 .fa-envelope{
-    color: red;
+    color: #F3F3F3;
+}
+
+.around .fa-envelope{
+    color: #382B2B;
+}
+
+.fa-envelope:hover{
+    color: #2C3573;
+}
+
+a .fa-twitter:hover{
+    color:#00B6F1;
+}
+a .fa-github:hover{
+    color:#040204;
+}
+a .fa-wordpress:hover{
+    color:#04769C;
+}
+a .fa-linkedin:hover{
+    color: #04669A;;
+}
+a .fa-google-plus:hover{
+    color:#C20806;
+}
+a .fa-instagram:hover{
+    color:#2C6A93;
 }
 
 .btn:focus,
