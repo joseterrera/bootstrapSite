@@ -20,7 +20,8 @@ a,
 a:hover,
 a:focus,
 a:active,
-a.active {
+a.active,
+a:visited {
     outline: 0;
     color: #E81B1B;
 }
@@ -89,14 +90,14 @@ hr.star-primary:after {
     background-color: #4F565C;
 }
 
-
+/*
 .things {
     color: #2C3E50;
-}
-
+}*/
+/*
 .img-centered {
     margin: 0 auto;
-}
+}*/
 
 header {
     text-align: center;
@@ -159,8 +160,12 @@ color: #E81B1B;
 
 @media(max-width:767px) {
 .container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+    background-color: black;
+}
+.navbar-header .page-scroll {
     background-color: rgba(4, 4, 4, 0.56);
 }
+
 .img-rounded {
     padding-top: 15%;
 }
@@ -255,7 +260,7 @@ section.success a.active {
     }
 }
 
-#portfolio .portfolio-item {
+/*#portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
 }
@@ -304,12 +309,12 @@ section.success a.active {
 
 #portfolio * {
     z-index: 2;
-}
+}*/
 
 @media(min-width:767px) {
-    #portfolio .portfolio-item {
+    /*#portfolio .portfolio-item {
         margin: 0 0 30px;
-    }
+    }*/
 }
 
 .btn-outline {
@@ -330,7 +335,7 @@ section.success a.active {
     background: #fff;
 }
 
-.floating-label-form-group {
+/*.floating-label-form-group {
     position: relative;
     margin-bottom: 0;
     padding-bottom: .5em;
@@ -384,7 +389,7 @@ section.success a.active {
 
 form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
-}
+}*/
 
 footer {
     color: #fff;
@@ -423,6 +428,7 @@ footer .footer-below {
 .btn-social:hover {
     color: red;
     background: white;
+    border: 3px solid red;
 }
 
 .around .btn-social:hover{
@@ -464,7 +470,7 @@ footer .footer-below {
 
 
 
-.portfolio-modal .modal-content {
+/*.portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
     border: 0;
@@ -526,7 +532,7 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
-}
+}*/
 
 /*profile picture */
 .img-rounded {
@@ -558,7 +564,7 @@ footer .footer-below {
 PAGE: PORTFOLIO
 ***********************************/
 
-#gallery {
+/*#gallery {
   margin: 0;
   padding: 5%;
   list-style: none;
@@ -582,5 +588,5 @@ PAGE: PORTFOLIO
 img {
     max-width: 360px;
     max-height: 234px;
-}
+}*/
 
